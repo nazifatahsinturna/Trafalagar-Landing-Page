@@ -63,3 +63,13 @@ p {
     height: 598px;
 }
 
+.services li {
+    list-style: none;
+}
+
+.services ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;/*might change later*/
+}
+

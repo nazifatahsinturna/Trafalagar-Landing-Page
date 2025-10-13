@@ -1,1 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.top-nav li{
+    list-style: none;
+    color: grey;
+}
+
+.top-nav li:first-child{
+    color: black
+}
+
+
+
+.logo span {
+    background-color: rgb(29, 13, 252);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    color: white;
+    display: inline-flex; /*so it doesn't become a block element*/
+    justify-content: center;
+    align-items: center;
+}

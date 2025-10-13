@@ -18,7 +18,7 @@ nav {
 
 .top-nav li{
     list-style: none;
-    color: grey;
+    color: #7D7987;
 }
 
 .top-nav li:first-child{
@@ -40,6 +40,10 @@ nav {
     justify-content: center;
     align-items: center;
     
+}
+
+p {
+    color: #7D7987; /*fixing all paragraph color*/
 }
 
 .heading {

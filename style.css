@@ -4,7 +4,7 @@
     font-family: "Mulish", sans-serif;
 }
 
-nav {
+header nav {
     display: flex;
     justify-content: space-between;
     margin: 10px;
@@ -24,10 +24,10 @@ nav {
 .top-nav li:first-child{
     color: black
 }
+
 .logo{
     font-size: 26px;
 }
-
 
 
 .logo span {
@@ -67,7 +67,7 @@ p {
     margin: 0 auto;
 }
 
-.services li {
+li { /*all lists should not have a style*/
     list-style: none;
 }
 
@@ -75,5 +75,28 @@ p {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;/*might change later*/
+}
+
+.option {
+    display: flex;
+}
+
+.review h2, article h2 {
+    text-align: center;
+}
+
+.opinion {
+    display: flex;
+}
+
+.customer {
+    display: flex;
+}
+
+
+.articles ul{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
 }
 

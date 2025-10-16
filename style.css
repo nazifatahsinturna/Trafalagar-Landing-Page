@@ -237,6 +237,34 @@ li { /*all lists should not have a style*/
         margin: 8px 0;
     }
 
+    .services {
+    margin: 50px auto;
+    }
+
+    h2 {
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 28px;
+    }
+    .description {
+        text-align: center;
+        margin: 0 auto;
+        width: 670px;
+        height: 177px;
+    }
+
+    .rectangle {
+        width: 45px;
+    }
+
+    .description .rectangle {
+        margin: 20px auto;
+    }
+
+    .description  p{
+        font-size: 17px;
+        line-height: 22px;
+    }
 
 }
 

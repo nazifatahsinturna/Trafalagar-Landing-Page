@@ -111,8 +111,13 @@ p {
     line-height: 32px;
     height: 96px;
  }
+ /*services section*/
 .services {
     margin: 0 auto;
+}
+
+.services h2 {
+    text-align: center;
 }
 
 li { /*all lists should not have a style*/
@@ -199,7 +204,6 @@ li { /*all lists should not have a style*/
         border-radius: 27px;
         font-size: 10px;
     }
-
 
 
 }

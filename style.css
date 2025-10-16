@@ -34,6 +34,7 @@ header {
     background-color: white;
     border: 2px solid #458FF6;
 }
+
 .heading .illustration {
     width: 693px;
     height: auto;
@@ -110,12 +111,6 @@ p {
     line-height: 32px;
     height: 96px;
  }
-
-.heading .illustration {
-    width: 600px;
-    height: auto;
-}
-
 .services {
     margin: 0 auto;
 }
@@ -170,7 +165,7 @@ li { /*all lists should not have a style*/
     grid-template-rows: auto;
 }
 
-@media(min-width: 768px) { /*for tablet*/
+@media(max-width: 1023px) { /*for tablet*/
     .heading .illustration {
         width: 350px;
         height: auto;
@@ -186,7 +181,7 @@ li { /*all lists should not have a style*/
         height: 300px;
     }
     .virtual h1 {
-        font-size: 25px;
+        font-size: 30px;
         /* padding-bottom: 12px; */
     }
 
@@ -194,9 +189,9 @@ li { /*all lists should not have a style*/
         
         width: 300px;
         padding: 12.5px 0;
-        font-size: 15px;
-        line-height: 16px;
-        height: 45px;
+        font-size: 17px;
+        line-height: 19px;
+        height: 47px;
     }
     .heading button{
         width: 100px;
@@ -219,19 +214,34 @@ li { /*all lists should not have a style*/
  }
 
  .heading .illustration{
-    width: 450px;
+    width: 400px;
+ }
+ .heading button {
+    margin-bottom: 20px;
  }
  .virtual {
     justify-content: center;
     text-align: center;
     align-items: center;
- }
+    height: auto;
+    width: 300px;
+}
 
- .virtual h1 {
-    font-size: 40px;
-    padding: 10px;
- }
+.virtual h1 {
+    font-size: 35px;
+    font-weight: 650;
+    width:300px;
+    /* padding-bottom: 25px; */
 
+}
+ .virtual p {
+    width: 300px;
+    padding: 25px 0;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 20px;
+    height: 90px;
+ }
  .ham {
     display: inline;
     height: 20px;

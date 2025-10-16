@@ -250,7 +250,7 @@ li { /*all lists should not have a style*/
         text-align: center;
         margin: 0 auto;
         width: 670px;
-        height: 177px;
+        /* height: 177px; */
     }
 
     .rectangle {
@@ -269,59 +269,88 @@ li { /*all lists should not have a style*/
 }
 
 @media(max-width: 767px) { /*for mobile*/
- .top-nav {
-    display: none; /*hiding the nav in mobile*/
- }
- .heading {
-    flex-direction: column;
-    align-items: center;
- }
+    .top-nav {
+        display: none; /*hiding the nav in mobile*/
+    }
+    .heading {
+        flex-direction: column;
+        align-items: center;
+    }
 
- .heading .illustration{
-    width: 400px;
- }
- .heading button {
-    width: 150px;
-    height: 40px;
-    border-radius: 30px;
-    font-size: 16px;
-    font-weight: 700;
-    margin: 10px 0;
- }
- .virtual {
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-    height: auto;
-    width: 300px;
-    margin-bottom: 20px;
-}
+    .heading .illustration{
+        width: 400px;
+    }
+    .heading button {
+        width: 150px;
+        height: 40px;
+        border-radius: 30px;
+        font-size: 16px;
+        font-weight: 700;
+        margin: 10px 0;
+    }
+    .virtual {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        height: auto;
+        width: 300px;
+        margin-bottom: 20px;
+    }
 
-.virtual h1 {
-    font-size: 35px;
-    font-weight: 650;
-    width:300px;
-    margin: 0 auto;
+    .virtual h1 {
+        font-size: 35px;
+        font-weight: 650;
+        width:300px;
+        margin: 0 auto;
 
-}
- .virtual p {
-    width: 300px;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 20px;
-    height: 40px;
-    padding-top: 5px;
- }
- .ham {
-    display: inline;
-    height: 20px;
-    width: 20px;
- }
+    }
+    .virtual p {
+        width: 300px;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 20px;
+        height: 40px;
+        padding-top: 5px;
+    }
+    .ham {
+        display: inline;
+        height: 20px;
+        width: 20px;
+    }
    .services ul {
     display: grid;
     grid-template-columns: 1fr;
     /* gap: 10px;might change later */
+    }
+
+    .services {
+    margin: 50px auto;
+    }
+
+    h2 {
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 28px;
+    }
+    .description {
+        text-align: center;
+        margin: 0 auto;
+        width: 370px;
+
+    }
+
+    .rectangle {
+        width: 40px;
+    }
+
+    .description .rectangle {
+        margin: 15px auto;
+    }
+
+    .description  p{
+        font-size: 15px;
+        line-height: 20px;
     }
 
 }

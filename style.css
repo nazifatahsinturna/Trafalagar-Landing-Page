@@ -4,6 +4,38 @@
     font-family: "Mulish", sans-serif;
 }
 
+header {
+    width: 90%;
+    margin: 0 auto;
+}
+.heading {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.heading button{
+    width: 200px;
+    height: 56px;
+    border-radius: 55px;
+    border: none;
+    background: none;
+    background-color: #458FF6;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.heading button:hover {
+    color: #458FF6;
+    background-color: white;
+    border: 2px solid #458FF6;
+}
+.heading .illustration {
+    width: 600px;
+    height: auto;
+}
+
 header nav {
     display: flex;
     justify-content: space-between;
@@ -26,7 +58,7 @@ header nav {
 }
 
 .logo{
-    font-size: 26px;
+    width: 160px;
 }
 
 
@@ -46,16 +78,20 @@ p {
     color: #7D7987; /*fixing all paragraph color*/
 }
 
-.heading {
-    display: flex;
 
-}
 
 .virtual {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     justify-content: center;
+    width:445px;
+    height: 338px;
+}
+
+.virtual h1 {
+    font-size: 48px;
+    font-weight: 700;
+
 }
 
 .illustration {
@@ -98,5 +134,30 @@ li { /*all lists should not have a style*/
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: auto;
+}
+
+@media(min-width: 768px) { /*for tablet*/
+
+}
+
+@media(max-width: 767px) { /*for mobile*/
+
+}
+
+footer {
+    background: linear-gradient(#67C3F3, #5498F2);
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    padding: 20px;
+    align-items: center;
+}
+
+footer p {
+    color: white;
+}
+
+footer .logo-bottom {
+    width: 160px;
 }
 

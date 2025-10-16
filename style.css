@@ -5,15 +5,16 @@
 }
 
 header {
-    width: 90%;
+    width: 93%;
     margin: 0 auto;
-    max-width: 1120px;
+    
 }
 .heading {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
+    max-width: 1140px;
 
 }
 
@@ -36,14 +37,14 @@ header {
 }
 
 .heading .illustration {
-    width: 693px;
+    width: 515px;
     height: auto;
 }
 
 header nav {
     display: flex;
     justify-content: space-between;
-    margin: 10px;
+    margin: 10px auto;
     align-items: center;
 }
 
@@ -70,19 +71,6 @@ header nav {
     width: 160px;
 }
 
-
-.logo span {
-    background-color: #458FF6;
-    border-radius: 50%;
-    width: 41px;
-    height: 41px;
-    color: white;
-    display: inline-flex; /*so it doesn't become a block element*/
-    justify-content: center;
-    align-items: center;
-    
-}
-
 p {
     color: #7D7987; /*fixing all paragraph color*/
 }
@@ -105,7 +93,7 @@ p {
  .virtual p {
     display: inline-block;
     width: 445px;
-    padding: 25px 0;
+    padding: 20px 0;
     font-weight: 300;
     font-size: 21px;
     line-height: 32px;
@@ -113,11 +101,14 @@ p {
  }
  /*services section*/
 .services {
-    margin: 0 auto;
+    margin: 110px auto;
 }
 
-.services h2 {
+.services .description {
     text-align: center;
+    margin: 0 auto;
+    width: 952px;
+    height: 177px;
 }
 
 li { /*all lists should not have a style*/
@@ -170,7 +161,25 @@ li { /*all lists should not have a style*/
     grid-template-rows: auto;
 }
 
-@media(max-width: 1023px) { /*for tablet*/
+.btn { /*for all buttons except top one*/
+    width: 170px;
+    height: 56px;
+    border-radius: 55px;
+    border: 2px solid #458FF6;
+    background: none;
+    color: #458FF6;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 700;
+    
+}
+
+.btn:hover {
+    background-color: #458FF6;
+    color: white;
+}
+
+@media(max-width: 1023px) and (min-width: 768px){ /*for tablet*/
     .heading .illustration {
         width: 350px;
         height: auto;
@@ -221,30 +230,37 @@ li { /*all lists should not have a style*/
     width: 400px;
  }
  .heading button {
-    margin-bottom: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 10px 0;
  }
  .virtual {
+    flex-direction: column;
     justify-content: center;
     text-align: center;
     align-items: center;
     height: auto;
     width: 300px;
+    margin-bottom: 20px;
 }
 
 .virtual h1 {
     font-size: 35px;
     font-weight: 650;
     width:300px;
-    /* padding-bottom: 25px; */
+    margin: 0 auto;
 
 }
  .virtual p {
     width: 300px;
-    padding: 25px 0;
     font-weight: 300;
     font-size: 18px;
     line-height: 20px;
-    height: 90px;
+    height: 40px;
+    padding-top: 5px;
  }
  .ham {
     display: inline;
@@ -267,6 +283,8 @@ footer {
     padding: 20px;
     align-items: center;
 }
+
+
 
 footer p {
     color: white;

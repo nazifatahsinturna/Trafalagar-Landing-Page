@@ -40,6 +40,7 @@ header nav {
     display: flex;
     justify-content: space-between;
     margin: 10px;
+    align-items: center;
 }
 
 .top-nav {
@@ -116,6 +117,23 @@ li { /*all lists should not have a style*/
 .option {
     display: flex;
 }
+
+.review {
+    background: linear-gradient(#67C3F3, #5498F2);
+    color: white;
+}
+
+.review p {
+    color: white;
+}
+
+.review img {
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
 
 .review h2, article h2 {
     text-align: center;

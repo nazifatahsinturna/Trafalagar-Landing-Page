@@ -172,7 +172,7 @@ li { /*all lists should not have a style*/
 
 @media(min-width: 768px) { /*for tablet*/
     .heading .illustration {
-        width: 500px;
+        width: 350px;
         height: auto;
     }
     .services ul {
@@ -180,6 +180,31 @@ li { /*all lists should not have a style*/
     grid-template-columns: repeat(2, 1fr);
     /* gap: 10px;might change later */
     }
+
+    .virtual {
+        width: 200px;
+        height: 300px;
+    }
+    .virtual h1 {
+        font-size: 25px;
+        /* padding-bottom: 12px; */
+    }
+
+    .virtual p {
+        
+        width: 300px;
+        padding: 12.5px 0;
+        font-size: 15px;
+        line-height: 16px;
+        height: 45px;
+    }
+    .heading button{
+        width: 100px;
+        height: 28px;
+        border-radius: 27px;
+        font-size: 10px;
+    }
+
 
 
 }
@@ -192,10 +217,19 @@ li { /*all lists should not have a style*/
     flex-direction: column;
     align-items: center;
  }
+
+ .heading .illustration{
+    width: 450px;
+ }
  .virtual {
     justify-content: center;
     text-align: center;
     align-items: center;
+ }
+
+ .virtual h1 {
+    font-size: 40px;
+    padding: 10px;
  }
 
  .ham {

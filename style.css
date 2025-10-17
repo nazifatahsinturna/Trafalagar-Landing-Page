@@ -154,9 +154,9 @@ li { /*all lists should not have a style*/
 }
 
 .services ul li {
-    width: 315px;
+
     border-radius: 20px;
-    height: 320px;
+    height: 340px;
     box-shadow: 8px 8px 10px rgb(222, 221, 221);
     background-color: white;
     
@@ -167,15 +167,21 @@ li { /*all lists should not have a style*/
     font-weight: 300;
     line-height: 28px;
     width: 261px;
-    padding:0 35px; 
+    padding:10px 35px; 
 }
 
 .services ul li h3 {
     padding:0 35px;
 }
 
+.icon { /*so the writing stays in same label*/
+     padding-top: 20px;
+     height: 160px;
+     width: 150px;
+}
+
 .services ul li img {
-    padding-top: 20px;
+   
     width: 150px;
     object-fit: contain;
 }

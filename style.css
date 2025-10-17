@@ -683,22 +683,3 @@ li { /*all lists should not have a style*/
         
 }
 
-footer {
-    background: linear-gradient(#67C3F3, #5498F2);
-    display: flex;
-    color: white;
-    justify-content: space-evenly;
-    padding: 20px;
-    align-items: center;
-}
-
-
-
-footer p {
-    color: white;
-}
-
-footer .logo-bottom {
-    width: 160px;
-}
-

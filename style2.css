@@ -63,6 +63,48 @@
     margin: 0 auto;
     text-align: center;
 }
+/*footer section*/
+footer {
+    margin-top: 91px;
+    background: linear-gradient(#67C3F3, #5A98F2);
+    display: flex;
+    height: 300px;
+    color: white;
+    justify-content: space-evenly;
+    padding: 20px;
+    align-items: center;
+
+}
+
+
+
+footer p {
+    color: white;
+    width: 391px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+}
+
+footer .logo-bottom {
+    width: 160px;
+    position: relative;
+    right: 15px;
+}
+
+footer h4 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 60px;
+}
+
+footer li {
+    font-size: 18px;
+    line-height: 38px;
+    font-weight: 300;
+}
+
+
 
 
 

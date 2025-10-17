@@ -144,7 +144,7 @@ li { /*all lists should not have a style*/
     background-size: 70%;
 }
 
-.services ul { 
+.services ul{ 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;/*might change later*/
@@ -157,7 +157,7 @@ li { /*all lists should not have a style*/
 .services ul li {
     border-radius: 20px;
     height: 340px;
-    box-shadow: 8px 8px 10px rgb(222, 221, 221);
+    box-shadow:  10px 40px 50px 0px #E5E9F666;
     background-color: white;
     
 }
@@ -309,12 +309,6 @@ li { /*all lists should not have a style*/
 
 }
 
-
-.articles ul{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: auto;
-}
 
 .btn { /*for all buttons except top one*/
     width: 170px;
@@ -625,7 +619,68 @@ li { /*all lists should not have a style*/
 
     }
 
-    
+    .review {
+    width: 440px;
+    height: 400px;
+}
+
+    .review h2 {
+        padding-top: 30px;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 48px;
+    }
+
+    .white-rectangle {
+        width: 56px;
+        background-color: white;
+        height: 2px;
+        margin: 20px auto;
+    }
+
+    .opinion {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin: 30px auto;
+        margin-bottom: 0;
+
+    }
+
+    .review blockquote {
+        color: white;
+        font-weight: 400;
+        font-size: 17px;
+    }
+
+    .review img {
+        height: 90px;
+        width: 90px;
+    }
+
+    .customer {
+        display: flex;
+        text-align: center;
+        height: 100px;
+        gap: 12px;
+        align-items: center;
+    }
+
+
+    .customer-info h3 {
+        font-size: 20px;
+        font-weight: 700;
+
+    }
+
+    .customer-info p {
+        font-size: 16px;
+        font-weight: 400;
+        color: white;
+
+    }
+        
 }
 
 footer {

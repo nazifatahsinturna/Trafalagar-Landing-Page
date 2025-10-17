@@ -1,0 +1,143 @@
+.external .rectangle {
+    margin: 20px auto;
+}
+
+.external h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+}
+
+.articles ul { 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;/*might change later*/
+    width: 1000px;
+    margin: 50px auto;
+    justify-content: center;
+
+}
+
+.articles ul li {
+    border-radius: 20px;
+    height: 450px;
+    box-shadow: 10px 40px 50px 0px #E5E9F666;
+    background-color: white;
+    overflow: hidden;
+    
+}
+
+.articles ul li p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    width: 261px;
+    padding:10px 30px; 
+}
+
+.articles ul li h3 {
+    padding: 0 30px;
+}
+
+.photo { /*so the writing stays in same label*/
+    width: 350px;
+    margin: 0 auto;
+    
+}
+
+.articles img {
+    width: 325px;
+    object-fit: contain;
+}
+.articles ul li {
+    border-radius: 20px;
+
+}
+.external a {
+    color: #4089ED;
+    padding: 10px 35px;
+}
+
+.external .btn {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+
+
+@media(max-width: 1023px) and (min-width: 768px){ /*for tablet*/
+
+    .external h2 {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 20px;
+    }
+
+    .articles ul { 
+        gap: 15px;/*might change later*/
+        width: 750px;
+        margin: 25px auto;
+        justify-content: center;
+
+    }
+
+    .articles ul li {
+        border-radius: 20px;
+        height: 420px;
+        box-shadow: 10px 40px 50px 0px #E5E9F666;
+        background-color: white;
+        overflow: hidden;
+        
+    }
+
+    .articles ul li p{
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 25px;
+        width: 170px;
+        padding:10px 20px; 
+    }
+
+    .articles ul li h3 {
+        padding: 0 20px;
+        height: 70px;
+    }
+
+    .photo { /*so the writing stays in same label*/
+        width: 250px;
+        margin: 0 auto;
+        
+    }
+
+    .articles img {
+        width: 250px;
+        object-fit: contain;
+    }
+    .articles ul li {
+        border-radius: 20px;
+
+    }
+    .external a {
+        padding: 10px 20px;
+    }
+
+    .external .btn {
+   
+    }
+
+    
+}
+
+@media(max-width: 767px) { /*for mobile*/
+    .external h2 {
+        font-size: 25px;
+        line-height: 20px;
+    }
+    .articles ul { 
+    grid-template-columns: 1fr;
+    width: 320px;
+    gap: 30px;/*might change later*/
+    }
+}

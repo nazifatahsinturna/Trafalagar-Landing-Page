@@ -58,14 +58,24 @@ header nav {
     display: none;
 }
 
-.top-nav li{
-    list-style: none;
-    color: #7D7987;
+.cross {
+    display: none; /*hiding the cross when the menu is inactive*/
 }
 
-.top-nav li:first-child{
+.top-nav li a{
+    list-style: none;
+    color: #7D7987;
+    text-decoration: none;
+}
+
+.top-nav li:first-child a{
     color: black
 }
+.top-nav li:hover a{
+        color: black;
+        cursor: pointer;
+}
+
 
 .logo{
     width: 160px;
@@ -490,7 +500,42 @@ li { /*all lists should not have a style*/
 
 @media(max-width: 767px) { /*for mobile*/
     .top-nav {
-        display: none; /*hiding the nav in mobile*/
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        color: white;
+        background: linear-gradient(45deg, #67C3F3, #5A98F2);
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        max-width: 160px;
+        top: 0;
+        z-index: 1;
+        right: -300px;
+        padding: 50px 40px;
+        transition: .3s ease; /*just it has smoth animation*/
+    }
+
+    .top-nav.active{ /*when it is active*/
+        right: 0;
+    }
+
+    .top-nav li a{
+        color: white;
+        font-size: larger;
+    }
+    .top-nav li:hover a{
+        color: black;
+        cursor: pointer;
+    }
+
+    .cross { /*the hamburger menu*/
+        position: relative;
+        bottom: 200px;
+        left: 150px;
+        display: inline;
+        height: 20px;
+        width: 20px;
     }
     .heading {
         flex-direction: column;
@@ -533,7 +578,7 @@ li { /*all lists should not have a style*/
         height: 40px;
         padding-top: 5px;
     }
-    .ham {
+    .ham { /*the hamburger menu*/
         display: inline;
         height: 20px;
         width: 20px;

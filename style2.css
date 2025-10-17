@@ -65,7 +65,7 @@
 }
 /*footer section*/
 footer {
-    margin-top: 91px;
+    margin-top: 191px;
     background: linear-gradient(#67C3F3, #5A98F2);
     display: flex;
     height: 300px;
@@ -75,8 +75,6 @@ footer {
     align-items: center;
 
 }
-
-
 
 footer p {
     color: white;
@@ -103,9 +101,6 @@ footer li {
     line-height: 38px;
     font-weight: 300;
 }
-
-
-
 
 
 
@@ -169,6 +164,37 @@ footer li {
    
     }
 
+        footer {
+        /* margin-top: 200px; */
+        height: 200px;
+        /* justify-content: space-evenly; */
+        /* padding: 20px; */
+        /* align-items: center; */
+
+    }
+
+    footer p {
+        width: 275px;
+        font-size: 14px;
+        line-height: 19px;
+        font-weight: 300;
+    }
+
+    footer .logo-bottom {
+        width: 150px;
+    }
+
+    footer h4 {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 48px;
+    }
+
+    footer li {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
     
 }
 
@@ -182,4 +208,38 @@ footer li {
     width: 320px;
     gap: 30px;/*might change later*/
     }
+
+    footer {
+        margin-top: 191px;
+        height: 850px;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px 0px 40px 30px;
+
+    }
+
+    footer p{
+        width: 380px;
+        font-size: 21px;
+    }
+
+
+    footer h4 {
+        font-size: 22px;
+    }
+
+    footer li {
+        font-size: 21px;
+    } 
+
+    #copy {
+        position: relative;
+        top: 655px;
+        font-size: 16px;
+    }
+
+    .company-info {
+        height: 150px;
+    }
+
 }

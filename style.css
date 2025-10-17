@@ -620,13 +620,13 @@ li { /*all lists should not have a style*/
     }
 
     .review {
-    width: 440px;
-    height: 400px;
+    width: 360px;
+    height: 380px;
 }
 
     .review h2 {
         padding-top: 30px;
-        font-size: 26px;
+        font-size: 21px;
         font-weight: 700;
         line-height: 48px;
     }
@@ -651,7 +651,7 @@ li { /*all lists should not have a style*/
     .review blockquote {
         color: white;
         font-weight: 400;
-        font-size: 17px;
+        font-size: 16px;
     }
 
     .review img {

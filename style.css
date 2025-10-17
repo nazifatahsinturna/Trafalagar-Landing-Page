@@ -196,10 +196,11 @@ li { /*all lists should not have a style*/
  /*option section*/
 .option {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 93%;
     max-width: 1140px;
-    margin: 0 auto;
+    margin: 100px auto;
+    gap: 10px;
 }
 
 .option img {
@@ -211,25 +212,27 @@ li { /*all lists should not have a style*/
     display: flex;
     flex-direction: column;
     width: 445px;
+    justify-content: center;
 }
 
 .info h2 {
-    font-size: 30px;
+    font-size: 33px;
+    line-height: 45px;
     font-weight: 700;
     width:445px;
 
 }
- .info p {
+.info p {
     width: 445px;
     font-weight: 300;
     font-size: 18px;
     line-height: 30px;
     height: 120px;
- }
+}
 
- .info .rectangle {
+.info .rectangle {
     margin: 20px 0;
- }
+}
 
 .review {
     background: linear-gradient(#67C3F3, #5498F2);
@@ -273,6 +276,7 @@ li { /*all lists should not have a style*/
     background-color: white;
     font-size: 18px;
     font-weight: 700;
+    margin: 20px 0;
     
 }
 
@@ -346,6 +350,46 @@ li { /*all lists should not have a style*/
     .description  p{
         font-size: 17px;
         line-height: 22px;
+    }
+    .option {
+        justify-content: space-between;
+        width: 93%;
+    }
+
+    .option img {
+        width: 360px;
+        height: 264px;
+    }
+
+    .info {
+      
+        width: 300px;
+    }
+
+    .info h2 {
+        font-size: 26px;
+        font-weight: 700;
+        width:250px;
+
+    }
+    .info p {
+        width: 300px;
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 25px;
+        height: 120px;
+    }
+
+    .info .rectangle {
+        margin: 17px 0;
+    }
+
+    .btn {
+        width: 150px;
+        height: 35px;
+        border-radius: 28px;
+        font-size: 15px;
+
     }
 
 }
@@ -433,6 +477,52 @@ li { /*all lists should not have a style*/
     .description  p{
         font-size: 15px;
         line-height: 20px;
+    }
+
+    .option {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+
+    .option img {
+        width: 360px;
+        height: 264px;
+    }
+
+    .info {
+        width: 300px;
+        text-align: center;
+    }
+
+    .info h2 {
+        font-size: 26px;
+        font-weight: 700;
+        width:250px;
+        margin: 0 auto;
+
+    }
+    .info p {
+        width: 300px;
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 25px;
+        height: 120px;
+    }
+
+    .info .rectangle {
+        margin: 17px auto;
+    }
+
+    .btn {
+        display: block;
+        width: 150px;
+        height: 35px;
+        border-radius: 28px;
+        font-size: 15px;
+        margin: 20px auto;
+
     }
 
 }

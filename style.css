@@ -137,10 +137,47 @@ li { /*all lists should not have a style*/
     list-style: none;
 }
 
-.services ul {
+.services {
+    background-image: url("./assets/images/Frame-1.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 70%;
+}
+
+.services ul { 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;/*might change later*/
+    width: 1000px;
+    margin: 50px auto;
+
+}
+
+.services ul li {
+    width: 315px;
+    border-radius: 20px;
+    height: 320px;
+    box-shadow: 8px 8px 10px rgb(222, 221, 221);
+    background-color: white;
+    
+}
+
+.services ul li p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    width: 261px;
+    padding:0 35px; 
+}
+
+.services ul li h3 {
+    padding:0 35px;
+}
+
+.services ul li img {
+    padding-top: 20px;
+    width: 150px;
+    object-fit: contain;
 }
 
 .option {

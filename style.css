@@ -186,9 +186,50 @@ li { /*all lists should not have a style*/
     object-fit: contain;
 }
 
+
+.services .btn {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+ /*option section*/
 .option {
     display: flex;
+    justify-content: space-between;
+    width: 93%;
+    max-width: 1140px;
+    margin: 0 auto;
 }
+
+.option img {
+    width:475px;
+}
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 445px;
+}
+
+.info h2 {
+    font-size: 30px;
+    font-weight: 700;
+    width:445px;
+
+}
+ .info p {
+    width: 445px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    height: 120px;
+ }
+
+ .info .rectangle {
+    margin: 20px 0;
+ }
 
 .review {
     background: linear-gradient(#67C3F3, #5498F2);
@@ -209,10 +250,6 @@ li { /*all lists should not have a style*/
 
 .review h2, article h2 {
     text-align: center;
-}
-
-.opinion {
-    display: flex;
 }
 
 .customer {
@@ -244,11 +281,6 @@ li { /*all lists should not have a style*/
     color: white;
 }
 
-.services .btn {
-    display: block;
-    margin: 0 auto;
-    text-align: center;
-}
 
 @media(max-width: 1023px) and (min-width: 768px){ /*for tablet*/
     .heading .illustration {

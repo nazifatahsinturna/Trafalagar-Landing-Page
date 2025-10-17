@@ -244,6 +244,12 @@ li { /*all lists should not have a style*/
     color: white;
 }
 
+.services .btn {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
 @media(max-width: 1023px) and (min-width: 768px){ /*for tablet*/
     .heading .illustration {
         width: 350px;

@@ -45,11 +45,3 @@ git clone https://github.com/nazifatahsinturna/Trafalagar-Landing-Page.git
 Open index.html in your browser.
 
 Resize the window or open DevTools → Device Toolbar to see responsive behavior.
-
-📂 Project Structure
-📁 project-folder
-├── index.html
-├── styleDefault.css
-├── styleTablet.css
-├── styleMobile.css
-└── script.js

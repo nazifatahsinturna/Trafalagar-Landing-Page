@@ -1,0 +1,237 @@
+@media(max-width: 1023px) and (min-width: 768px){ /*for tablet*/
+    .heading .illustration {
+        width: 350px;
+        height: auto;
+    }
+    .services ul {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;/*might change later*/
+        width: 650px;
+        margin: 25px auto;
+    }
+ 
+    .virtual {
+        width: 200px;
+        height: 300px;
+    }
+    .virtual h1 {
+        font-size: 30px;
+        /* padding-bottom: 12px; */
+    }
+
+    .virtual p {
+        padding-top: 5px;
+        width: 300px;
+        padding-bottom: 12.5px;
+        font-size: 17px;
+        line-height: 22px;
+        height: 56px;
+    }
+    .heading button{
+        width: 100px;
+        height: 28px;
+        border-radius: 27px;
+        font-size: 10px;
+        margin: 8px 0;
+    }
+
+    .services {
+    margin: 50px auto;
+    }
+
+    h2 {
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 28px;
+    }
+    .description {
+        text-align: center;
+        margin: 0 auto;
+        width: 670px;
+        /* height: 177px; */
+    }
+
+    .rectangle {
+        width: 45px;
+    }
+
+    .description .rectangle {
+        margin: 20px auto;
+    }
+
+    .description  p{
+        font-size: 17px;
+        line-height: 22px;
+    }
+    .option {
+        justify-content: space-between;
+        width: 93%;
+    }
+
+    .option img {
+        width: 360px;
+        height: 264px;
+    }
+
+    .info {
+      
+        width: 300px;
+    }
+
+    .info h2 {
+        font-size: 26px;
+        font-weight: 700;
+        width:250px;
+
+    }
+    .info p {
+        width: 300px;
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 25px;
+        height: 120px;
+    }
+
+    .info .rectangle {
+        margin: 17px 0;
+    }
+
+    .btn {
+        width: 150px;
+        height: 35px;
+        border-radius: 28px;
+        font-size: 15px;
+
+    }
+    .review {
+        width: 700px;
+        height: 300px;
+        margin: 100px auto;
+        border-radius: 24px;
+    }
+
+    .review h2 {
+        padding-top: 40px;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+
+    .white-rectangle {
+        width: 40px;
+        margin: 20px auto;
+    }
+
+    .opinion {
+        padding: 0;
+        width: 80%;
+        margin: 50px auto;
+        margin-bottom: 0;
+        gap: 15px;
+
+    }
+
+    .review blockquote {
+        padding-top: 10px;
+        font-weight: 300;
+        font-size: 13px;
+    }
+
+    .review img {
+        border-radius: 50%;
+        height: 80px;
+        width: 80px;
+    }
+
+    .customer-info h3 {
+        font-size: 18px;
+
+    }
+
+    .customer-info p {
+        font-size: 15px;
+
+    }
+        .external h2 {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 20px;
+    }
+
+    .articles ul { 
+        gap: 15px;/*might change later*/
+        width: 750px;
+        margin: 25px auto;
+        justify-content: center;
+
+    }
+
+    .articles ul li {
+        border-radius: 20px;
+        height: 420px;
+        box-shadow: 10px 40px 50px 0px #E5E9F666;
+        background-color: white;
+        overflow: hidden;
+        
+    }
+
+    .articles ul li p{
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 25px;
+        width: 170px;
+        padding:10px 20px; 
+    }
+
+    .articles ul li h3 {
+        padding: 0 20px;
+        height: 70px;
+    }
+
+    .photo { /*so the writing stays in same label*/
+        width: 250px;
+        margin: 0 auto;
+        
+    }
+
+    .articles img {
+        width: 250px;
+        object-fit: contain;
+    }
+    .articles ul li {
+        border-radius: 20px;
+
+    }
+    .external a {
+        padding: 10px 20px;
+    }
+
+    footer {
+        height: 200px;
+    }
+
+    footer p {
+        width: 275px;
+        font-size: 14px;
+        line-height: 19px;
+        font-weight: 300;
+    }
+
+    footer .logo-bottom {
+        width: 150px;
+    }
+
+    footer h4 {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 48px;
+    }
+
+    footer li {
+        font-size: 14px;
+        line-height: 28px;
+    }
+
+
+
+}

@@ -1,0 +1,445 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Mulish", sans-serif;
+}
+
+header {
+    width: 93%;
+    margin: 0 auto;
+    
+}
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1140px;
+
+}
+
+.heading button{
+    width: 200px;
+    height: 56px;
+    border-radius: 55px;
+    border: none;
+    background: none;
+    background-color: #458FF6;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+.heading button:hover {
+    color: #458FF6;
+    background-color: white;
+    border: 2px solid #458FF6;
+}
+
+.heading .illustration {
+    width: 515px;
+    height: auto;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    align-items: center;
+}
+
+.top-nav {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.ham { /*hiding the hamburget icon in desktop view*/
+    display: none;
+}
+
+.cross {
+    display: none; /*hiding the cross when the menu is inactive*/
+}
+
+.top-nav li a{
+    list-style: none;
+    color: #7D7987;
+    text-decoration: none;
+}
+
+.top-nav li:first-child a{
+    color: black
+}
+.top-nav li:hover a{
+        color: black;
+        cursor: pointer;
+}
+
+
+.logo{
+    width: 160px;
+}
+
+p {
+    color: #7D7987; /*fixing all paragraph color*/
+}
+
+.virtual {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:445px;
+    height: 338px;
+}
+
+.virtual h1 {
+    font-size: 48px;
+    font-weight: 700;
+    width:445px;
+    /* padding-bottom: 25px; */
+
+}
+ .virtual p {
+    /* display: inline-block; */
+    width: 445px;
+    padding: 20px 0;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 32px;
+    height: 96px;
+ }
+ /*services section*/
+.services {
+    margin: 100px auto;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+}
+.description {
+    text-align: center;
+    margin: 0 auto;
+    width: 952px;
+    height: 177px;
+}
+
+.rectangle {
+    width: 56px;
+    background-color: black;
+    height: 2px;
+}
+
+.description .rectangle {
+    margin: 20px auto;
+}
+
+.description  p{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+
+li { /*all lists should not have a style*/
+    list-style: none;
+}
+
+.services {
+    background-image: url("./assets/images/Frame-1.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 70%;
+}
+
+.services ul{ 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;/*might change later*/
+    width: 800px;
+    margin: 50px auto;
+    justify-content: center;
+
+}
+
+.services ul li {
+    border-radius: 20px;
+    height: 340px;
+    box-shadow:  10px 40px 50px 0px #E5E9F666;
+    background-color: white;
+    
+}
+
+.services ul li p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    width: 261px;
+    padding:10px 35px; 
+}
+
+.services ul li h3 {
+    padding:0 35px;
+}
+
+.icon { /*so the writing stays in same label*/
+     padding-top: 20px;
+     height: 160px;
+     width: 150px;
+}
+
+.services ul li img {
+   
+    width: 150px;
+    object-fit: contain;
+}
+
+
+.services .btn {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+ /*option section*/
+.option {
+    display: flex;
+    justify-content: space-around;
+    width: 93%;
+    max-width: 1140px;
+    margin: 100px auto;
+    gap: 10px;
+}
+
+.option img {
+    width:475px;
+}
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 445px;
+    justify-content: center;
+}
+
+.info h2 {
+    font-size: 33px;
+    line-height: 45px;
+    font-weight: 700;
+    width:445px;
+
+}
+.info p {
+    width: 445px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    height: 120px;
+}
+
+.info .rectangle {
+    margin: 20px 0;
+}
+
+/*review section*/
+.review {
+    background: linear-gradient(30deg, #5A98F2, #67C3F3);
+    color: white;
+    width: 950px;
+    height: 400px;
+    margin: 100px auto;
+    border-radius: 24px;
+}
+
+.review h2 {
+    padding-top: 50px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.white-rectangle {
+    width: 56px;
+    background-color: white;
+    height: 2px;
+    margin: 20px auto;
+}
+
+.opinion {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 40px;
+    width: 80%;
+    margin: 100px auto;
+    margin-bottom: 0;
+
+}
+
+.review blockquote {
+    color: white;
+    font-weight: 400;
+    font-size: 19px;
+}
+
+.review img {
+    border: 2px solid white;
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+}
+
+
+.review h2, article h2 {
+    text-align: center;
+}
+
+.customer {
+    display: flex;
+    /* width: 400px; */
+    height: 100px;
+    gap: 12px;
+    align-items: center;
+}
+
+
+.customer-info h3 {
+    font-size: 22px;
+    font-weight: 700;
+
+}
+
+.customer-info p {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+
+}
+
+
+.btn { /*for all buttons except top one*/
+    width: 170px;
+    height: 56px;
+    border-radius: 55px;
+    border: 2px solid #458FF6;
+    background: none;
+    color: #458FF6;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 20px 0;
+    
+}
+
+.btn:hover {
+    background-color: #458FF6;
+    color: white;
+}
+
+.external .rectangle {
+    margin: 20px auto;
+}
+
+.external h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 56px;
+}
+
+.articles ul { 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;/*might change later*/
+    width: 1000px;
+    margin: 50px auto;
+    justify-content: center;
+
+}
+
+.articles ul li {
+    border-radius: 20px;
+    height: 450px;
+    box-shadow: 10px 40px 50px 0px #E5E9F666;
+    background-color: white;
+    overflow: hidden;
+    
+}
+
+.articles ul li p{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    width: 261px;
+    padding:10px 30px; 
+}
+
+.articles ul li h3 {
+    padding: 0 30px;
+}
+
+.photo { /*so the writing stays in same label*/
+    width: 350px;
+    margin: 0 auto;
+    
+}
+
+.articles img {
+    width: 325px;
+    object-fit: contain;
+}
+.articles ul li {
+    border-radius: 20px;
+
+}
+.external a {
+    color: #4089ED;
+    padding: 10px 35px;
+}
+
+.external .btn {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+/*footer section*/
+footer {
+    margin-top: 191px;
+    background: linear-gradient(#67C3F3, #5A98F2);
+    display: flex;
+    height: 300px;
+    color: white;
+    justify-content: space-evenly;
+    padding: 20px;
+    align-items: center;
+
+}
+
+footer p {
+    color: white;
+    width: 391px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+}
+
+footer .logo-bottom {
+    width: 160px;
+    position: relative;
+    right: 15px;
+}
+
+footer h4 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 60px;
+}
+
+footer li {
+    font-size: 18px;
+    line-height: 38px;
+    font-weight: 300;
+}

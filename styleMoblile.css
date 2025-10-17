@@ -1,0 +1,271 @@
+@media(max-width: 767px) { /*for mobile*/
+    .top-nav {
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+        color: white;
+        background: linear-gradient(45deg, #67C3F3, #5A98F2);
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        max-width: 160px;
+        top: 0;
+        z-index: 1;
+        right: -300px;
+        padding: 50px 40px;
+        transition: .3s ease; /*just it has smoth animation*/
+    }
+
+    .top-nav.active{ /*when it is active*/
+        right: 0;
+    }
+
+    .top-nav li a{
+        color: white;
+        font-size: larger;
+    }
+    .top-nav li:hover a{
+        color: black;
+        cursor: pointer;
+    }
+
+    .cross { /*the hamburger menu*/
+        position: relative;
+        bottom: 200px;
+        left: 150px;
+        display: inline;
+        height: 20px;
+        width: 20px;
+    }
+    .heading {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .heading .illustration{
+        width: 400px;
+    }
+    .heading button {
+        width: 150px;
+        height: 40px;
+        border-radius: 30px;
+        font-size: 16px;
+        font-weight: 700;
+        margin: 10px 0;
+    }
+    .virtual {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        height: auto;
+        width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .virtual h1 {
+        font-size: 35px;
+        font-weight: 650;
+        width:300px;
+        margin: 0 auto;
+
+    }
+    .virtual p {
+        width: 300px;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 20px;
+        height: 40px;
+        padding-top: 5px;
+    }
+    .ham { /*the hamburger menu*/
+        display: inline;
+        height: 20px;
+        width: 20px;
+    }
+   .services ul { 
+        grid-template-columns: 1fr;
+        width: 160px;
+        gap: 20px;
+    }
+
+    .services {
+    margin: 50px auto;
+    }
+
+    h2 {
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 28px;
+    }
+    .description {
+        text-align: center;
+        margin: 0 auto;
+        width: 370px;
+
+    }
+
+    .rectangle {
+        width: 40px;
+    }
+
+    .description .rectangle {
+        margin: 15px auto;
+    }
+
+    .description  p{
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .option {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+
+    .option img {
+        width: 360px;
+        height: 264px;
+    }
+
+    .info {
+        width: 300px;
+        text-align: center;
+    }
+
+    .info h2 {
+        font-size: 26px;
+        font-weight: 700;
+        width:250px;
+        margin: 0 auto;
+
+    }
+    .info p {
+        width: 300px;
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 25px;
+        height: 120px;
+    }
+
+    .info .rectangle {
+        margin: 17px auto;
+    }
+
+    .btn {
+        display: block;
+        width: 150px;
+        height: 35px;
+        border-radius: 28px;
+        font-size: 15px;
+        margin: 20px auto;
+
+    }
+
+    .review {
+    width: 360px;
+    height: 380px;
+    }
+
+    .review h2 {
+        padding-top: 30px;
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 48px;
+    }
+
+    .white-rectangle {
+        width: 56px;
+        background-color: white;
+        height: 2px;
+        margin: 20px auto;
+    }
+
+    .opinion {
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        margin: 30px auto;
+        margin-bottom: 0;
+
+    }
+
+    .review blockquote {
+        color: white;
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+    .review img {
+        height: 90px;
+        width: 90px;
+    }
+
+    .customer {
+        display: flex;
+        text-align: center;
+        height: 100px;
+        gap: 12px;
+        align-items: center;
+    }
+
+
+    .customer-info h3 {
+        font-size: 20px;
+        font-weight: 700;
+
+    }
+
+    .customer-info p {
+        font-size: 16px;
+        font-weight: 400;
+        color: white;
+
+    }
+    .external h2 {
+        font-size: 25px;
+        line-height: 20px;
+    }
+    .articles ul { 
+    grid-template-columns: 1fr;
+    width: 320px;
+    gap: 30px;/*might change later*/
+    }
+
+    footer {
+        margin-top: 191px;
+        height: 850px;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px 0px 40px 30px;
+
+    }
+
+    footer p{
+        width: 380px;
+        font-size: 21px;
+    }
+
+
+    footer h4 {
+        font-size: 22px;
+    }
+
+    footer li {
+        font-size: 21px;
+    } 
+
+    #copy {
+        position: relative;
+        top: 655px;
+        font-size: 16px;
+    }
+
+    .company-info {
+        height: 150px;
+    }
+        
+}

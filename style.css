@@ -147,14 +147,14 @@ li { /*all lists should not have a style*/
 .services ul { 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;/*might change later*/
-    width: 1000px;
+    gap: 15px;/*might change later*/
+    width: 800px;
     margin: 50px auto;
+    justify-content: center;
 
 }
 
 .services ul li {
-
     border-radius: 20px;
     height: 340px;
     box-shadow: 8px 8px 10px rgb(222, 221, 221);
@@ -250,11 +250,12 @@ li { /*all lists should not have a style*/
         height: auto;
     }
     .services ul {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    /* gap: 10px;might change later */
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;/*might change later*/
+        width: 650px;
+        margin: 25px auto;
     }
-
+ 
     .virtual {
         width: 200px;
         height: 300px;
@@ -361,10 +362,10 @@ li { /*all lists should not have a style*/
         height: 20px;
         width: 20px;
     }
-   .services ul {
-    display: grid;
-    grid-template-columns: 1fr;
-    /* gap: 10px;might change later */
+   .services ul { 
+        grid-template-columns: 1fr;
+        width: 160px;
+        gap: 20px;
     }
 
     .services {

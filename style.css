@@ -234,20 +234,52 @@ li { /*all lists should not have a style*/
     margin: 20px 0;
 }
 
+/*review section*/
 .review {
-    background: linear-gradient(#67C3F3, #5498F2);
+    background: linear-gradient(30deg, #5A98F2, #67C3F3);
     color: white;
+    width: 950px;
+    height: 400px;
+    margin: 100px auto;
+    border-radius: 24px;
 }
 
-.review p {
+.review h2 {
+    padding-top: 50px;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.white-rectangle {
+    width: 56px;
+    background-color: white;
+    height: 2px;
+    margin: 20px auto;
+}
+
+.opinion {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 40px;
+    width: 80%;
+    margin: 100px auto;
+    margin-bottom: 0;
+
+}
+
+.review blockquote {
     color: white;
+    font-weight: 400;
+    font-size: 19px;
 }
 
 .review img {
     border: 2px solid white;
     border-radius: 50%;
-    height: 50px;
-    width: 50px;
+    height: 90px;
+    width: 90px;
 }
 
 
@@ -257,6 +289,24 @@ li { /*all lists should not have a style*/
 
 .customer {
     display: flex;
+    /* width: 400px; */
+    height: 100px;
+    gap: 12px;
+    align-items: center;
+}
+
+
+.customer-info h3 {
+    font-size: 22px;
+    font-weight: 700;
+
+}
+
+.customer-info p {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+
 }
 
 
@@ -391,6 +441,56 @@ li { /*all lists should not have a style*/
         font-size: 15px;
 
     }
+    .review {
+        width: 700px;
+        height: 300px;
+        margin: 100px auto;
+        border-radius: 24px;
+    }
+
+    .review h2 {
+        padding-top: 40px;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+
+    .white-rectangle {
+        width: 40px;
+        margin: 20px auto;
+    }
+
+    .opinion {
+        padding: 0;
+        width: 80%;
+        margin: 50px auto;
+        margin-bottom: 0;
+        gap: 15px;
+
+    }
+
+    .review blockquote {
+        padding-top: 10px;
+        font-weight: 300;
+        font-size: 13px;
+    }
+
+    .review img {
+        border-radius: 50%;
+        height: 80px;
+        width: 80px;
+    }
+
+    .customer-info h3 {
+        font-size: 18px;
+
+    }
+
+    .customer-info p {
+        font-size: 15px;
+
+    }
+
 
 }
 
@@ -525,6 +625,7 @@ li { /*all lists should not have a style*/
 
     }
 
+    
 }
 
 footer {

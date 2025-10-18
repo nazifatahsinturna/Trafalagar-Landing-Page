@@ -443,3 +443,7 @@ footer li {
     line-height: 38px;
     font-weight: 300;
 }
+
+button { /*for all buttons animation*/
+    transition: 0.3s;
+}
